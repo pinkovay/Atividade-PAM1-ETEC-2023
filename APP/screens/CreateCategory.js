@@ -1,7 +1,9 @@
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import { StyleSheet, Text, SafeAreaView, Image, View, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 
-export default function DetailBook() {
+
+
+export default function CreateCategory() {
   return (
     <SafeAreaView style={styles.container}>
 
@@ -38,11 +40,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#3B4652',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 20
+    padding: "5em"
   },
   imagem: {
     width: 350,
-    height: 350
+    height: 300
   },
   containerInput: {
     display: 'flex',
@@ -68,7 +70,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#28FFC6',
     padding: 20,
     borderRadius: 15,
-    width: 150
+    borderBottomLeftRadius: 25,
+    width: "100%"
   },
   txtEnter:{
     textAlign: 'center',
